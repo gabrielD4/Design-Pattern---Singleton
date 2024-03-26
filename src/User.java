@@ -12,7 +12,7 @@ public class User {
     }
 
     public static User getUser() {
-        if(instance == null) {
+        if (instance == null) {
             instance = new User();
         }
         return instance;
